@@ -1,0 +1,48 @@
+@charset "UTF-8";
+.header__top-phone-link {
+  font-size: 14px; }
+
+.main__slider-sl .slick-arrow {
+  margin: 0 10px;
+  top: calc(50% - 35px); }
+
+.main__slider {
+  max-height: 420px;
+  overflow: hidden; }
+
+.marquee__content {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  width: 100%; }
+
+.marquee {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-left 20s linear infinite; }
+
+/* Движение справа налево: начинаем с правого края экрана, уходим влево */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0); }
+  100% {
+    transform: translateX(-100%); } }
+
+/* Чтобы два блока шли непрерывно, нужно их расположить в одну строку */
+.marquee__content {
+  display: flex;
+  flex-wrap: nowrap; }
+
+.rotate180 {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease; }
+
+.filter__more-selects {
+  display: none; }
+
+.modal {
+  display: none; }
+
+.callback-button[data-v-228ea74e] {
+  width: 48px;
+  height: 40px; }

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">      
+  <title>Салон новых автомобилей в Новосибирске | Ru-Autosalon</title>
+  @@include('var/_styless.html')
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="/favicon.svg">
+  <link rel="icon" type="image/png" href="/favicon.png">            
+  <meta name="description" content="">    
+</head>
+<body>
+  @@include('var/_header.html')
+  <main>
+<!--[-->
+<!--[-->
+<!--[-->
+
+
+<section class="section cars-hot">
+  <div class="container">
+    <div class="cars-hot__wrapper">
+      <div class="cars-hot__header">
+        <h2 class="title" data-v-c3ea3a71>Горячее предложение</h2>
+      </div>
+      <div class="cars-hot__body cars-template">
+        <!--[-->
+        @@include('var/_car.html',{  
+          "img":"./img/car-1.png"
+        })            
+        @@include('var/_car.html',{  
+          "img":"./img/car-2.png"
+        })
+        @@include('var/_car.html',{  
+          "img":"./img/car-3.png"
+        })
+        @@include('var/_car.html',{  
+          "img":"./img/car-2.png"
+        })
+        <!--]-->
+      </div>
+    </div>
+  </div>
+</section>
+@@include('var/_form.html')
+<!---->
+<div>
+</div>
+<!--]-->
+<!---->
+<!--]-->
+</main>
+<!--[-->
+<!---->
+@@include('var/_footer.html')
+<!--]-->
+<!--]-->
+<!--]-->
+
+<div id="teleports"></div>
+
+</body>
+@@include('var/_scripts.html')
+</html>
