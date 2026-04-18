@@ -69,6 +69,10 @@ $ff2: 'Open Sans', sans-serif;
   display: none;
 }
 
+.modal-overlay {
+
+}
+
 .modal {
   display: none;
 }
@@ -77,3 +81,21 @@ $ff2: 'Open Sans', sans-serif;
   width: 48px;
   height: 40px;
 }
+
+.page .page__content .page__form .form__form {
+  padding: 0;
+}
+
+.page .page__content .page__form .form__form[data-v-766d34ed] {
+          justify-content: flex-end;  
+}
+
+.page .page__content .page__form .form__form .form__content[data-v-766d34ed] {
+  height: auto;
+}
+
+.page__form .form__form {
+  height: 100%;
+  padding: 0;  
+}
+

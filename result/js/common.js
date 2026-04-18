@@ -124,43 +124,36 @@ jQuery(document).ready(function( $ ) {
 
 
 
-  function popup(openLink, windowEl, closeEl) {  
-    $(openLink).click(function(e) {
-      e.preventDefault();
-      $(windowEl).fadeIn();
-      $('body').addClass('ohi');
-    });
-    $(closeEl).click(function(e) {
-      e.preventDefault();
-      $(windowEl).fadeOut();
-      $('body').removeClass('ohi');
-    });
-    $('.modal-overlay').click(function () {
-      $(this).fadeOut();
-      $('body').removeClass('ohi');
-    });
-    $('.modal-form__block').click(function (e) {
-      e.stopPropagation();  
-    });
-    
-  }
-
-  popup('.link2', '.modal-overlay_2', '.modal-close_2');
-  popup('.link', '.modal-overlay_1', '.modal-close_1');
-
-
 
   $('.modal, .modal__close').click(function () {
-    $('.modal').fadeOut();
+    $('.modal').fadeOut();    
   });
 
-  $('.modal__content').click(function (e) {
+  $('.modal__content, .modal-content').click(function (e) {
     e.stopPropagation();
   });
 
-  $('.button-modal').click(function () {
+  
+  $('.button-modal.callback-fixed, .model__controls .button-modal').click(function () {
     $('.modal-1').fadeIn();
   });
+
+
+  $('.modal-close').click(function () {
+    $(this).closest('.modal-overlay').fadeOut();
+  });
+
+  $('.modal-overlay').click(function () {
+    $(this).fadeOut();
+  });
+
+
+  $('.header__call-link, .header__top-phone-link').click(function () {
+    $('.modal-overlay-2').fadeIn();
+  });
+  
+
+
 
 
   $('a[href*=\\#]:not([href=\\#])').click(function () {
