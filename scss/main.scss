@@ -87,7 +87,7 @@ $ff2: 'Open Sans', sans-serif;
 }
 
 .page .page__content .page__form .form__form[data-v-766d34ed] {
-          justify-content: flex-end;  
+  justify-content: flex-end;  
 }
 
 .page .page__content .page__form .form__form .form__content[data-v-766d34ed] {
@@ -99,3 +99,52 @@ $ff2: 'Open Sans', sans-serif;
   padding: 0;  
 }
 
+.car[data-v-40d9bd59] {
+  min-width: unset;  
+}
+
+.model__card .model__container .model__left .model__img-block .model__img[data-v-85866b5c] {
+  @media (max-width : 767px) {
+    aspect-ratio: 2 / 1;
+    width: 100%;
+    height: auto;
+    max-height: unset;
+  }
+}
+
+.model__card .model__container .model__left .model__img-block .model__img img[data-v-85866b5c] {
+  @media (max-width : 767px) {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}
+
+.modifications__item-head.close {
+  .icon {
+    transform: rotate(180deg);
+  }
+}
+
+.section__tabs .tabs__header .tabs__header-item[data-v-a3329024], .section__tabs .tabs__header .tabs__header-link[data-v-a3329024] {
+  max-width: unset;
+}
+
+
+.rfet {
+  .switch input:checked+label:before {
+    transform: translate(32px);
+  }
+  .switch input:checked+label {
+    background-color: var(--main-color);
+  }
+  
+}
+
+.complectations-calculator__items-mob {
+.complectations-calculator__item[data-v-85866b5c], .complectations-calculator__total[data-v-85866b5c] {
+  display: flex !important;
+}
+  
+}

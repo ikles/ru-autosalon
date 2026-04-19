@@ -59,3 +59,35 @@
 .page__form .form__form {
   height: 100%;
   padding: 0; }
+
+.car[data-v-40d9bd59] {
+  min-width: unset; }
+
+@media (max-width: 767px) {
+  .model__card .model__container .model__left .model__img-block .model__img[data-v-85866b5c] {
+    aspect-ratio: 2 / 1;
+    width: 100%;
+    height: auto;
+    max-height: unset; } }
+
+@media (max-width: 767px) {
+  .model__card .model__container .model__left .model__img-block .model__img img[data-v-85866b5c] {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    object-fit: cover; } }
+
+.modifications__item-head.close .icon {
+  transform: rotate(180deg); }
+
+.section__tabs .tabs__header .tabs__header-item[data-v-a3329024], .section__tabs .tabs__header .tabs__header-link[data-v-a3329024] {
+  max-width: unset; }
+
+.rfet .switch input:checked + label:before {
+  transform: translate(32px); }
+
+.rfet .switch input:checked + label {
+  background-color: var(--main-color); }
+
+.complectations-calculator__items-mob .complectations-calculator__item[data-v-85866b5c], .complectations-calculator__items-mob .complectations-calculator__total[data-v-85866b5c] {
+  display: flex !important; }
