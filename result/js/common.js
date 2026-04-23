@@ -144,7 +144,7 @@ jQuery(document).ready(function( $ ) {
   });
 
   
-  $('.button-modal.callback-fixed, .model__controls .button-modal').click(function () {
+  $('.button-modal.callback-fixed, .model__controls .button-modal.trade').click(function () {
     $('.modal-1').fadeIn();
   });
 
